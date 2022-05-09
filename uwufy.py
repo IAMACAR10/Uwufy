@@ -1,0 +1,5 @@
+base_text = input("Please enter your text: ")
+base_text = base_text.replace("l", "w")
+base_text = base_text.replace("L", "W")
+base_text = base_text.replace("R", "W")
+print("OwO " + base_text.replace("r", "w") + " UwU")
